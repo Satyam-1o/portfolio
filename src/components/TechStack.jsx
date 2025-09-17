@@ -11,8 +11,8 @@ export default function () {
 
         <Badge source="images/react.svg" name="React"/>
         <Badge source="images/js.svg" name="Javascript"/>
-        <Badge source="images/ts.svg" name="TypeScript"/>
-        <Badge source="images/next.svg" name="NextJS"/>
+        {/* <Badge source="images/ts.svg" name="TypeScript"/> */}
+        {/* <Badge source="images/next.svg" name="NextJS"/> */}
         <Badge source="images/tailwind.svg" name="tailwind"/>
         <Badge source="images/Node.js.svg" name="NodeJs"/>
         <Badge source="images/Express.svg" name="ExpressJS"/>
