@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import EduQuest from "./pages/EduQuest";
+import MovieApp from "./pages/MovieApp";
 
 export default function AppRoutes() {
   return (
@@ -9,6 +10,7 @@ export default function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />    
       <Route path="/eduquest" element={<EduQuest />} />
+      <Route path="/movieapp" element={<MovieApp />} />
     </Routes>
   );
 }

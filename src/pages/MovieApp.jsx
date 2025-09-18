@@ -1,6 +1,6 @@
 import Logo from "../components/Logo";
 
-export default function EduQuest() {
+export default function MovieApp() {
   return (
     <div id="eduquest">
       <main className="flex flex-col w-full min-h-screen h-full pt-10">
@@ -8,7 +8,7 @@ export default function EduQuest() {
         <div className="w-full flex items-center justify-between gap-5 mb-10 max-md:flex-col">
           {/* Title */}
           <h1 className="font-bold text-xl tracking-widest text-white max-sm:mb-4">
-            EduQuest - Learning App
+            MovieApp - Discover Movies
           </h1>
 
           {/* Buttons */}
@@ -18,7 +18,7 @@ export default function EduQuest() {
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 bg-[#A8ADB2]/10 max-sm:w-full max-sm:justify-center rounded-full py-1 px-6 hover:bg-[#A8ADB2]/20 transition-all"
-              href="https://github.com/Satyam-1o/EduQuest"
+              href="https://github.com/Satyam-1o/movie-app"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ export default function EduQuest() {
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 bg-[#A8ADB2]/10 max-sm:w-full max-sm:justify-center rounded-full py-1 px-6 hover:bg-[#A8ADB2]/20 transition-all"
-              href="https://edu-quest-iota.vercel.app/"
+              href="https://movie-app-alpha-bice-90.vercel.app/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -90,13 +90,16 @@ export default function EduQuest() {
         </div>
         {/* paragraph */}
         <p className="text-[#A8ADB2]">
-          <span className="text-white">EduQuest</span> is a platform where you
-          gamify your environmental learning journey with interactive lessons,
-          projects, and a vibrant community. From quizzes and challenges that
-          test your knowledge to hands-on projects that encourage real-world
-          impact, EduQuest makes sustainability fun and engaging. Whether you're
-          a student, educator, or eco-enthusiast, it’s designed to inspire
-          curiosity, collaboration, and positive change.
+          I developed a <span className="text-white">Movie Discovery App</span>{" "}
+          using React that allows users to quickly explore and discover movies.
+          The app provides a smooth browsing experience with a clean and
+          responsive UI styled using Tailwind CSS. It features a search
+          functionality for finding movies by title and a dedicated trending
+          page to highlight the most popular movies. For the backend, I
+          integrated Appwrite as the database and backend service, enabling
+          secure storage and efficient management of movie data. Live movie
+          information is fetched from an API, and detailed movie cards display
+          posters, ratings, and descriptions.
         </p>
         <h2 className="font-bold text-base mt-16 tracking-widest text-white mb-5 uppercase">
           Tech Stack
@@ -104,32 +107,31 @@ export default function EduQuest() {
         <div className="grid grid-cols-4 max-sm:grid-cols-2 items-center gap-3">
           <Logo name="React" source="images/react.svg" />
           <Logo name="Tailwind" source="images/tailwind.svg" />
-          <Logo name="Supabase" source="images/supabase.svg" />
+          <Logo name="Appwrite" source="images/movieapp/Appwrite.svg" />
         </div>
         <h2 className="font-bold text-base mt-16 tracking-widest text-white mb-5 uppercase">
           Key Features
         </h2>
         <ul className="text-[#A8ADB2] w-full space-y-2">
           <li>
-            🔐 <span className="text-white font-medium">User Authentication </span>
-            — Sign up and log in securely to the app.
+            🔍 <span className="text-white font-medium">Search functionality </span>
+            — Find movies by title with responsive, real-time results.
           </li>
           <li>
-            🎮 <span className="text-white font-medium">Gamified Learning </span>
+            📈 <span className="text-white font-medium">Trending page </span>
             — Earn points, badges, and rewards as you progress.
           </li>
           <li>
-            📚 <span className="text-white font-medium">Interactive Lessons </span>
-            — Learn environmental concepts through engaging, bite-sized modules.
+            🎟️ <span className="text-white font-medium">Detailed cards </span>
+            — Interactive movie detail cards displaying poster, rating, and description.
           </li>
           <li>
-            🤝 <span className="text-white font-medium">Community </span>
-            — Join discussions, share ideas, and work together on sustainability projects.
+            🧩 <span className="text-white font-medium">Scalable </span>
+            — Organized component structure for scalability and maintainability.
           </li>
           <li>
-            👤 <span className="text-white font-medium">Progress Tracking </span>
-            — Monitor your learning journey with profiles, achievements, and
-            milestones.
+            🌐 <span className="text-white font-medium">API </span>
+            — API integration for fetching live movie data.
           </li>
         </ul>
         <h2 className="font-bold text-base mt-16 tracking-widest text-white mb-5 uppercase">
@@ -143,7 +145,7 @@ export default function EduQuest() {
             height={700}
             decoding="async"
             className="rounded-xl border-1 border-[#A8ADB2]/20"
-            src="/images/eduquest/eduquest1.png"
+            src="/images/movieapp/movieapp1.png"
           />
           <img
             alt="project image"
@@ -152,7 +154,7 @@ export default function EduQuest() {
             height={700}
             decoding="async"
             className="rounded-xl border-1 border-[#A8ADB2]/20"
-            src="/images/eduquest/eduquest2.png"
+            src="/images/movieapp/movieapp2.png"
           />
           <img
             alt="project image"
@@ -161,35 +163,9 @@ export default function EduQuest() {
             height={700}
             decoding="async"
             className="rounded-xl border-1 border-[#A8ADB2]/20"
-            src="/images/eduquest/eduquest3.png"
+            src="/images/movieapp/movieapp3.png"
           />
-          <img
-            alt="project image"
-            loading="lazy"
-            width={700}
-            height={700}
-            decoding="async"
-            className="rounded-xl border-1 border-[#A8ADB2]/20"
-            src="/images/eduquest/eduquest4.png"
-          />
-          <img
-            alt="project image"
-            loading="lazy"
-            width={700}
-            height={700}
-            decoding="async" 
-            className="rounded-xl border-1 border-[#A8ADB2]/20"
-            src="/images/eduquest/eduquest5.png"
-          />
-          <img
-            alt="project image"
-            loading="lazy"
-            width={700}
-            height={700}
-            decoding="async"
-            className="rounded-xl border-1 border-[#A8ADB2]/20"
-            src="/images/eduquest/eduquest6.png"
-          />
+          
         </div>
       </main>
     </div>

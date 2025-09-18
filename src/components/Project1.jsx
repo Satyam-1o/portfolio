@@ -1,6 +1,6 @@
 import Logo from "./Logo";
 
-export default function ProjectEdu() {
+export default function Project1() {
   return (
     <div className="flex flex-col w-full">
       <div className="flex items-start gap-8">
