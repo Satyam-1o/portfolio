@@ -108,7 +108,7 @@ export default function Project1() {
           </div>
         </div>
         <a
-          aria-label="See more about the Tribe app"
+          aria-label="See more about the EduQuest app"
           href="/eduquest"
           class="flex flex-col p-2 max-sm:hidden rounded-full bg-[#A8ADB2]/20 text-white font-medium text-sm transition-all hover:bg-light-gray/30"
         >

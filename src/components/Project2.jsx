@@ -5,7 +5,7 @@ export default function Project2() {
     <div className="flex flex-col w-full">
       <div className="flex items-start gap-8">
         <div className="rounded-lg w-[640px] border border-[#A8ADB2]/50 p-5 flex flex-col gap-5">
-          <a aria-label="See more about the EduQuest App" href="/movieapp">
+          <a aria-label="See more about the Movie App" href="/movieapp">
             <img
               alt="project-screenshot"
               loading="lazy"
@@ -106,8 +106,8 @@ export default function Project2() {
           </div>
         </div>
         <a
-          aria-label="See more about the Tribe app"
-          href="/eduquest"
+          aria-label="See more about the Movie app"
+          href="/movieapp"
           class="flex flex-col p-2 max-sm:hidden rounded-full bg-[#A8ADB2]/20 text-white font-medium text-sm transition-all hover:bg-light-gray/30"
         >
           <svg
